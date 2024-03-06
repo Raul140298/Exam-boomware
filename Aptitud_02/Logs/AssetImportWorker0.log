@@ -1,0 +1,250 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/raul1/Downloads/Aptitud_02
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50051
+Successfully changed project path to: C:/Users/raul1/Downloads/Aptitud_02
+C:/Users/raul1/Downloads/Aptitud_02
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 138.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/raul1/Downloads/Aptitud_02/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008520 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 117.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\raul1\Downloads\Aptitud_02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\raul1\Downloads\Aptitud_02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 137.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1888ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (1448ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (766ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.5 KB). Loaded Objects now: 4534.
+Memory consumption went from 151.5 MB to 151.4 MB.
+Total: 5.669100 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.461100 ms MarkObjects: 4.695900 ms  DeleteObjects: 0.115200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77568.553035 seconds.
+  path: Assets/CASO_A/Prefabs/arcade_brazil.prefab
+  artifactKey: Guid(f1f47b59e0f547444b07b6171a98c5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Prefabs/arcade_brazil.prefab using Guid(f1f47b59e0f547444b07b6171a98c5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f49a3841d416094ecdc8e576d8a87b7') in 0.061924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.303226 seconds.
+  path: Assets/CASO_A/Prefabs/arcade_halloween.prefab
+  artifactKey: Guid(df889e09dafc2e144b0dbe256022f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Prefabs/arcade_halloween.prefab using Guid(df889e09dafc2e144b0dbe256022f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e349080cabd0ee8626e3aec6606c091') in 0.011798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.276604 seconds.
+  path: Assets/CASO_A/Prefabs/arcade_ind.prefab
+  artifactKey: Guid(8eae7cc691f8a1f429eeaece0454e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Prefabs/arcade_ind.prefab using Guid(8eae7cc691f8a1f429eeaece0454e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eacb14dbb9c3dd3ed1000825951b71') in 0.014836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.564258 seconds.
+  path: Assets/CASO_A/Scriptable Objects/Servicer Brazil.asset
+  artifactKey: Guid(a6dadeae64575a7479a69ce822fe8296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scriptable Objects/Servicer Brazil.asset using Guid(a6dadeae64575a7479a69ce822fe8296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725a93517421981c5abb47aad1382384') in 0.016028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.690231 seconds.
+  path: Assets/CASO_A/Scriptable Objects/Servicer Halloween.asset
+  artifactKey: Guid(e59934bfebec88846942335330e1ee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scriptable Objects/Servicer Halloween.asset using Guid(e59934bfebec88846942335330e1ee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94eca8d8fafabb250827bb180b923be9') in 0.007986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419067 seconds.
+  path: Assets/CASO_A/Scriptable Objects/Servicer Ind.asset
+  artifactKey: Guid(751d0414e937d6c4ea69f3fd4c917708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scriptable Objects/Servicer Ind.asset using Guid(751d0414e937d6c4ea69f3fd4c917708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1acbaba2b6d105bb8fac5f12a5e7eb9') in 0.009056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.674238 seconds.
+  path: Assets/CASO_A/Scripts/ServicerData.cs
+  artifactKey: Guid(7002ddff280bea749b24f4814fb9fd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/ServicerData.cs using Guid(7002ddff280bea749b24f4814fb9fd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67415237e9e9538e21a6a9e1b7d1e75') in 0.014940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.714819 seconds.
+  path: Assets/CASO_A/Scripts/Arcade.cs
+  artifactKey: Guid(09a4da28297346178d0bcedc0ad5637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/Arcade.cs using Guid(09a4da28297346178d0bcedc0ad5637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786031bd44ddf00f09b5cc224bf35490') in 0.007198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.318532 seconds.
+  path: Assets/CASO_A/Scripts/ArcadeArcadeHw.cs
+  artifactKey: Guid(00ef41ec8218ac74a8512c22ceab7302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/ArcadeArcadeHw.cs using Guid(00ef41ec8218ac74a8512c22ceab7302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd306d5f5ca1818fe17791e29b00b9921') in 0.007987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.319400 seconds.
+  path: Assets/CASO_A/Scripts/ArcadeArcadeInd.cs
+  artifactKey: Guid(f1590fc77fde4254a8409629904e4b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/ArcadeArcadeInd.cs using Guid(f1590fc77fde4254a8409629904e4b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4876fd21fd47594b5dda1bc8024f5d39') in 0.008144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.297468 seconds.
+  path: Assets/CASO_A/Scripts/Enums.cs
+  artifactKey: Guid(7c57815c14aa4abca3986984a59e69e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/Enums.cs using Guid(7c57815c14aa4abca3986984a59e69e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1cb0cb3ed70d68fdd1202b2b884b90') in 0.009024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314615 seconds.
+  path: Assets/CASO_A/Scripts/HandledBehaviour.cs
+  artifactKey: Guid(cf4c1bd5b5aa00f4a824a734bb9a62f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/HandledBehaviour.cs using Guid(cf4c1bd5b5aa00f4a824a734bb9a62f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae352cd1f0328a9c3af5b6f1e0dc260') in 0.008519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.405751 seconds.
+  path: Assets/CASO_A/Scripts/Servicer.cs
+  artifactKey: Guid(ed56062a02510cb4aa910e73a5b74686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CASO_A/Scripts/Servicer.cs using Guid(ed56062a02510cb4aa910e73a5b74686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf78f257a3f0a757c61b5f9a192caf2') in 0.008240 seconds 
